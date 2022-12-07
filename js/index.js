@@ -20,7 +20,7 @@ question123.innerText = `What is ${num1} multiply by ${num2}?`
 
 const correctAns = num1 * num2;
 
-formEl.addEventListener("submit", () => {
+formEl.addEventListener("submit", ()=>{
 const userAns = +inputEl.Value;
 if(userAns === correctAns) {
     score++;
